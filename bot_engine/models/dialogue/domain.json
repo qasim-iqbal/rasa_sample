@@ -1,0 +1,24 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_cfdc",
+    "intent_loan_request",
+    "intent_thank_you",
+    "intent_application_signup",
+    "intent_application_attempts",
+    "entity_loan_amount",
+    "slot_loan_amount_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_thank_you",
+    "prev_utter_cfdc",
+    "prev_utter_loan_request",
+    "prev_utter_ask_loan_amount",
+    "prev_utter_application_attempts",
+    "prev_utter_application_signup",
+    "prev_action_loan_request"
+  ]
+}

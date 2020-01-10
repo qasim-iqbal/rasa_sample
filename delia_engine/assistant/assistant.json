@@ -1,0 +1,67 @@
+{
+  "id" : "proj_xdqoeYDmgvK",
+  "name" : "delia",
+  "intents" : [ {
+    "id" : "JackTheRipper:signup",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "signup",
+    "enabledByDefault" : true
+  }, {
+    "id" : "JackTheRipper:decline",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "decline",
+    "enabledByDefault" : true
+  }, {
+    "id" : "JackTheRipper:about",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "about",
+    "enabledByDefault" : true
+  }, {
+    "id" : "JackTheRipper:greeting",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "greeting",
+    "enabledByDefault" : true
+  }, {
+    "id" : "JackTheRipper:thanks",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "thanks",
+    "enabledByDefault" : true
+  }, {
+    "id" : "JackTheRipper:agreement",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "agreement",
+    "enabledByDefault" : true
+  } ],
+  "createdAt" : "2019-11-17T15:37:24.971Z",
+  "language" : "en",
+  "version" : {
+    "nluModel" : "0.20.1"
+  },
+  "platform" : {
+    "type" : "raspberrypi"
+  },
+  "asr" : {
+    "type" : "snips"
+  },
+  "analyticsEnabled" : false,
+  "heartbeatEnabled" : false,
+  "hotword" : "hey_snips"
+}

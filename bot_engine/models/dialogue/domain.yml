@@ -1,0 +1,61 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_thank_you
+- utter_cfdc
+- utter_loan_request
+- utter_ask_loan_amount
+- utter_application_attempts
+- utter_application_signup
+- action_loan_request
+actions:
+- utter_greet
+- utter_goodbye
+- utter_thank_you
+- utter_cfdc
+- utter_loan_request
+- utter_ask_loan_amount
+- utter_application_attempts
+- utter_application_signup
+- actions.ActionLoanRequest
+config:
+  store_entities_as_slots: true
+entities:
+- loan_amount
+intents:
+- greet
+- goodbye
+- cfdc
+- loan_request
+- thank_you
+- application_signup
+- application_attempts
+slots:
+  loan_amount:
+    initial_value: null
+    max_value: 1.0
+    min_value: 0.0
+    type: rasa_core.slots.FloatSlot
+templates:
+  utter_application_attempts:
+  - text: Yes, there are no restrictions on re-submition of application. Follow this
+      link http://singup.com to apply again
+  utter_application_signup:
+  - text: Click on this link http://singup.com to signup for loan application.
+  utter_ask_loan_amount:
+  - text: Please enter the amount of loan you are looking for
+  utter_cfdc:
+  - text: CFDC is a loan application
+  utter_goodbye:
+  - text: Ok bye
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
+  utter_loan_request:
+  - text: Delia can work with you on lending solutions up to $250,000 and sometimes
+      in higher amounts in partnership with other alternative lenders, or by referral.
+      Note that DELIA loans are at this time limited to a maximum approval of $50,000.
+  utter_thank_you:
+  - text: Not a problem :), Is there anything else I can help you with?
+topics: []

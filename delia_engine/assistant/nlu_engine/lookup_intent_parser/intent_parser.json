@@ -1,0 +1,123 @@
+{
+  "config": {
+    "ignore_stop_words": true,
+    "unit_name": "lookup_intent_parser"
+  },
+  "entity_scopes": [
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": []
+      },
+      "intent_group": [
+        "JackTheRipper:about",
+        "JackTheRipper:agreement",
+        "JackTheRipper:decline",
+        "JackTheRipper:greeting",
+        "JackTheRipper:signup",
+        "JackTheRipper:thanks"
+      ]
+    }
+  ],
+  "intents_names": [
+    "JackTheRipper:about",
+    "JackTheRipper:agreement",
+    "JackTheRipper:decline",
+    "JackTheRipper:greeting",
+    "JackTheRipper:signup",
+    "JackTheRipper:thanks"
+  ],
+  "language_code": "en",
+  "map": {
+    "-2142168923": [
+      1,
+      []
+    ],
+    "-2107387142": [
+      2,
+      []
+    ],
+    "-1784570852": [
+      1,
+      []
+    ],
+    "-1252484358": [
+      2,
+      []
+    ],
+    "-1205882114": [
+      1,
+      []
+    ],
+    "-933075257": [
+      2,
+      []
+    ],
+    "-783518239": [
+      2,
+      []
+    ],
+    "-617994384": [
+      5,
+      []
+    ],
+    "-341313569": [
+      4,
+      []
+    ],
+    "-328535407": [
+      0,
+      []
+    ],
+    "-182823139": [
+      4,
+      []
+    ],
+    "265510971": [
+      2,
+      []
+    ],
+    "563729632": [
+      1,
+      []
+    ],
+    "885874487": [
+      0,
+      []
+    ],
+    "1023569353": [
+      2,
+      []
+    ],
+    "1272259235": [
+      5,
+      []
+    ],
+    "1669830319": [
+      4,
+      []
+    ],
+    "1955677261": [
+      4,
+      []
+    ],
+    "2000835754": [
+      1,
+      []
+    ],
+    "2035559737": [
+      1,
+      []
+    ],
+    "2038544272": [
+      1,
+      []
+    ],
+    "2057480393": [
+      4,
+      []
+    ]
+  },
+  "slots_names": [],
+  "stop_words_whitelist": {}
+}

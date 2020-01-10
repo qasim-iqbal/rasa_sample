@@ -1,0 +1,319 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you later"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "What is a CFDC?"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "cfdc ?"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "what's CFDC?"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "how do you signup for CFDC?"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "what's cfdc"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [],
+        "text": "How much can I request for?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "25,000",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "can I request less than $25,000?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [],
+        "text": "How much loan can I apply for?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "50,000",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "Can I request more than $50,000?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "35000",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "I want to apply for a loan of 35000."
+      },
+      {
+        "intent": "loan_request",
+        "entities": [],
+        "text": "what is the minimum loan I can apply for?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "100,000",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "I am looking for a loan of 100,000"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "what is cdfc program?"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "what does cfdc stand for?"
+      },
+      {
+        "intent": "cfdc",
+        "entities": [],
+        "text": "tell me more about cfdc"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [],
+        "text": "what is the minimum loan I can apply for?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [],
+        "text": "what is the maximum loan I can apply for?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [],
+        "text": "How much can I apply for?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "50,000 ",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "I need 50,000 dollars, can I get that much?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "70000",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "can I borrow 70000?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "50,000.0",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "about $50,000.0"
+      },
+      {
+        "intent": "thank_you",
+        "entities": [],
+        "text": "Ok, Thank you"
+      },
+      {
+        "intent": "thank_you",
+        "entities": [],
+        "text": "thanks so much!"
+      },
+      {
+        "intent": "thank_you",
+        "entities": [],
+        "text": "ty"
+      },
+      {
+        "intent": "thank_you",
+        "entities": [],
+        "text": "ok, got it thanks"
+      },
+      {
+        "intent": "thank_you",
+        "entities": [],
+        "text": "thanks"
+      },
+      {
+        "intent": "thank_you",
+        "entities": [],
+        "text": "that was helpful"
+      },
+      {
+        "intent": "application_attempts",
+        "entities": [],
+        "text": "Can I submit multiple applications?"
+      },
+      {
+        "intent": "application_signup",
+        "entities": [],
+        "text": "where can I apply for the loan?"
+      },
+      {
+        "intent": "application_signup",
+        "entities": [],
+        "text": "where is the loan application"
+      },
+      {
+        "intent": "application_signup",
+        "entities": [],
+        "text": "Where is the signup form?"
+      },
+      {
+        "intent": "application_signup",
+        "entities": [],
+        "text": "can I apply online?"
+      },
+      {
+        "intent": "application_signup",
+        "entities": [],
+        "text": "I would like to start my application process, please"
+      },
+      {
+        "intent": "application_attempts",
+        "entities": [],
+        "text": "How many application can I submit?"
+      },
+      {
+        "intent": "application_attempts",
+        "entities": [],
+        "text": "Can I submit the same application twice?"
+      },
+      {
+        "intent": "application_attempts",
+        "entities": [],
+        "text": "can I submit it again"
+      },
+      {
+        "intent": "application_attempts",
+        "entities": [],
+        "text": "I have already applied before, can I apply again?"
+      },
+      {
+        "intent": "loan_request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "500000",
+            "entity": "loan_amount"
+          }
+        ],
+        "text": "about $500000"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

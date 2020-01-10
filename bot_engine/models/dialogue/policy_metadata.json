@@ -1,0 +1,27 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "loan_amount"
+      ]
+    },
+    "action_loan_request": {
+      "slots": [
+        "loan_amount"
+      ]
+    },
+    "utter_application_signup": {
+      "slots": []
+    },
+    "utter_thank_you": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.8.2",
+  "max_history": 2,
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

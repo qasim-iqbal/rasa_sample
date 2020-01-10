@@ -1,0 +1,27 @@
+slots:
+  amount:
+    type: float
+
+intents:
+  - greet
+  - goodbye
+  - apply_loan
+  - thank_you
+
+entities:
+  - amount
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Ok bye'
+    - 'Bye bye :('
+  utter_thank_you:
+    - 'Not a problem :), Is there anything else I can help you with?'
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_thank_you
+  - actions.ActionRequest
