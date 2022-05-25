@@ -77,7 +77,7 @@ pyaml==19.4.1
 pycparser==2.19
 pydot==1.4.1
 PyHamcrest==1.9.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pykwalify==1.7.0
 pylint==2.4.4
 pymongo==3.10.0
